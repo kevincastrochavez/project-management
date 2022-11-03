@@ -19,5 +19,9 @@ class IntroActivity : AppCompatActivity() {
         findViewById<View?>(R.id.btn_sign_up_intro).setOnClickListener {
             startActivity(Intent(this@IntroActivity, SignUpActivity::class.java))
         }
+
+        findViewById<View?>(R.id.btn_sign_in_intro).setOnClickListener {
+            startActivity(Intent(this@IntroActivity, SignInActivity::class.java))
+        }
     }
 }
